@@ -1,0 +1,179 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.menu{
+    background:#45015d;
+    width: 150px;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    position: fixed;
+    height: 100%;
+}
+.menu__link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+.main{
+    margin-left: 350px;
+}
+.showcase-h2{
+    color: #45015d;
+}
+hr{
+    height: 10px;
+    background:#45015d;
+    border-radius: 5px;
+}
+.images img{
+    width: 45%;
+    border-radius: 10px;
+    margin: 5px;
+    opacity: 0.7;/*делает прозрачнее*/
+}
+.images img:hover{
+    opacity: 1;
+}
+.kartohka{
+    width: 30%;
+    display: inline-block;
+}
+.padhenisnam{
+    width: 100%;
+    border-radius: 10%;
+}
+.name{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 19px;
+}
+.text{
+    margin-top: 0;
+    color: rgb(161, 161, 161);
+}
+.parket{
+    margin-top: 0;
+}
+.onnampodhenilca{
+    background-color: rgb(224, 224, 224);
+    border-radius: 5%;
+    padding: 20px 15px;
+}
+.price_card{
+    list-style-type: none;
+    width: 45%;
+    text-align: center;
+    background-color: rgb(229, 227, 227);
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.price__card__heading{
+    background-color:#45015d;
+    color: white;
+    padding: 20px 0px; 
+    border-radius: 10px;
+}
+.price__card__description{
+    background-color: rgb(229, 227, 227);
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(210, 205, 205);
+    padding: 13px;
+}
+.price__card__description__ygy{
+    font-size: 25px;
+    font-weight: 900;
+    padding: 13px;
+}
+.ssuylka{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+
+}
+.ssuylka:hover{
+    background:#45015d;
+    color: rgb(255, 255, 255);
+}
+.price__card__heading__dva{
+    background-color:#f44336;
+    color: white;
+    padding: 20px 0px; 
+    border-radius: 10px;
+}
+.ssuylka_dva{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.ssuylka_dva:hover{
+    background-color:#f44336;
+    color: rgb(248, 237, 237);
+}
+.price__card__description:hover:before{
+    content: "☭";
+    margin-right: 5px;
+    font-size: 30px;
+}
+.price__card__description:hover:after{
+    content: "⚒";
+    margin-right: 5px;
+    font-size: 30px;
+}
+.pohti_finis{
+    display: block;
+    padding:10px 0px;
+    width: 100%;
+}
+.YBYBYBYBYBY{
+    background-color: #f44336;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+.YBYBYBYBYBY:hover{
+    background-color:#f44336;
+    color: rgb(248, 237, 237);
+    width: 100%;
+}
+@media (max-width:575px){
+    .menu{
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    .menu__link{
+        display: inline-block;
+    }
+    .main{
+        margin: 0;
+    }
+    .images img{
+        display: block;
+        width: 100%;
+    }
+    .kartohka{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .price_card{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
